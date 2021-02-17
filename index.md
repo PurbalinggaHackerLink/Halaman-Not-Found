@@ -1,37 +1,96 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/PurbalinggaHackerLink/Halaman-Not-Found/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <meta name="description" content="Halaman Tidak Ditemukan">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800" rel="stylesheet">
+    <style>
+        *, body {
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        html {
+            color: #888;
+            display: table;
+            font-family: 'Nunito Sans', sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
 
-### Markdown
+        .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+            font-family: 'Nunito Sans', sans-serif;
+        }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        body {
+            display: table-cell;
+            vertical-align: middle;
+            margin: 2em auto;
+            background-image: url('img/bg1.gif');
+        }
 
-```markdown
-Syntax highlighted code block
+        h1 {
+            color: #ef4153;
+            text-shadow: rgba(235, 82, 93, 0.3) 5px 1px, rgba(235, 82, 93, 0.2) 10px 3px;
+            font-size: 150px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        h4 {
+            color: #ef4153;
+            text-transform: capitalize;
+            font-size: 28px;
+        }
 
-# Header 1
-## Header 2
-### Header 3
+        p {
+            margin: 0 auto;
+            max-width: 790px;
+            margin-top: 20px;
+            color: #ef4153 ;
+            margin-bottom: 10px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        a {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #ef4153;
+            color: #ffff;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
 
-- Bulleted
-- List
+        @media only screen and (max-width: 280px) {
 
-1. Numbered
-2. List
+            body, p {
+                width: 95%;
+            }
 
-**Bold** and _Italic_ and `Code` text
+            h1 {
+                font-size: 1.5em;
+                margin: 0 0 0.3em;
+            }
 
-[Link](url) and ![Image](src)
-```
+        }
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PurbalinggaHackerLink/Halaman-Not-Found/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </style>
+</head>
+<body>  
+    <h1>404</h1>
+    <h4>Page Not Found</h4>
+    <h4>It's looking like you may have taken a wrong turn. Don't worry... it happens to the best of us. Here's a little tip that might help you get back on track.</h4>
+    <a href="index.html">Return to Home</a>
+</body>
+</html>
